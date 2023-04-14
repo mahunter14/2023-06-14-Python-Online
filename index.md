@@ -9,7 +9,7 @@ country: "US"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "35.19894"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-111.64932"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "June 14-28, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "June 14, 21, 28, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "8:00 am - 3:30 pm PDT (11:00 am - 6:30 pm EDT)"    # human-readable times for the workshop e.g., "8:00 am - 3:30 pm CEST (8:00 am - 3:30 pm UTC)"
 startdate: 2023-06-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2023-06-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -398,6 +398,11 @@ please preview your site before committing, and make sure to run
 </p>
 
 {% comment %}
+For online workshops, the section below provides:
+- installation instructions for the Zoom client
+- recommendations for setting up Learners' workspace so they can follow along
+  the instructions and the videoconferencing
+
 If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
